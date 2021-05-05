@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1620246290602" clover="3.2.0">
+  <project timestamp="1620246290602" name="All files">
+    <metrics statements="78" coveredstatements="63" conditionals="9" coveredconditionals="2" methods="24" coveredmethods="17" elements="111" coveredelements="82" complexity="0" loc="78" ncloc="78" packages="2" files="10" classes="10"/>
+    <package name="src">
+      <metrics statements="50" coveredstatements="35" conditionals="9" coveredconditionals="2" methods="17" coveredmethods="10"/>
+      <file name="index.ts" path="/Users/mark/git/react-api-wrapper/src/index.ts">
+        <metrics statements="45" coveredstatements="30" conditionals="9" coveredconditionals="2" methods="16" coveredmethods="9"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="74" count="4" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="97" count="4" type="stmt"/>
+      </file>
+      <file name="keys.ts" path="/Users/mark/git/react-api-wrapper/src/keys.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+      </file>
+      <file name="toImmerable.ts" path="/Users/mark/git/react-api-wrapper/src/toImmerable.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.annotations">
+      <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="apiDelete.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiDelete.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="apiGet.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiGet.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="apiMapping.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiMapping.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="apiOptions.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiOptions.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="apiPatch.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiPatch.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="apiPost.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiPost.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="apiPut.ts" path="/Users/mark/git/react-api-wrapper/src/annotations/apiPut.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
