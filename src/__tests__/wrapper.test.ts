@@ -6,11 +6,11 @@ import wrapWithReactApi = ReactApiWrapper.wrapWithReactApi;
 
 class ExampleClass extends WrappingClass {
   @apiGet()
-  @apiMapping('http://www.bbc.com')
+  @apiMapping('https://www.bbc.com')
   bbc: string | null;
 
   @apiGet()
-  @apiMapping('http://www.google.com')
+  @apiMapping('https://www.google.com')
   google: string | null;
 
   constructor() {
@@ -18,10 +18,6 @@ class ExampleClass extends WrappingClass {
     this.bbc = null;
     this.google = null;
   }
-}
-
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 test('Test if wrapper function is ran without the errors', () => {
