@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "dist/**/*"
   ],
   "scripts": {
     "test": "jest --config jestconfig.json --collect-coverage",
