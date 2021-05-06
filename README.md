@@ -4,20 +4,20 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ced3a8762074fffb5cb9a73ac30a292)](https://www.codacy.com/gh/MarkusBansky/react-api-wrapper/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MarkusBansky/react-api-wrapper&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/8ced3a8762074fffb5cb9a73ac30a292)](https://www.codacy.com/gh/MarkusBansky/react-api-wrapper/dashboard?utm_source=github.com&utm_medium=referral&utm_content=MarkusBansky/react-api-wrapper&utm_campaign=Badge_Coverage)
 
-*These all above should be green!*
+###### These all above should be green!
 
 It is a popular task to create a frontend on React for some API provided as a backend. 
 This requires to use many plugins and different approaches which may be complicating to begin with.
 Developers such as myself are required to write some duplicate code each time a new project is started.
 This downgrades the efficiency of the team and wastes useful time. 
 
-*Do not waste your time on repetitiveness!*
+##### Do not waste your time on repetitiveness!
 
 This project is dedicated to help developers connect their frontend written in React to the API endpoints.
 By generating the reducers, mappings for `connect` function automatically this tool helps to reduce
 the number of code required to get new API rolled out or the duplicate code rewritten every time.
 
-*Reduce the amount of written code!*
+##### Reduce the amount of written code!
 
 This also reduces the number of packages required to be installed in order to get the required 
 functions to work with the API backend.
